@@ -1,0 +1,12 @@
+# Logs and Data
+logs/
+data/
+alerts/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Configuration secrets
+config/notify-config.yaml
+# Keep a template instead: config/notify-config.example.yaml
