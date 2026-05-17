@@ -1,7 +1,4 @@
 # Logs and Data
-logs/
-data/
-alerts/
 
 # OS files
 .DS_Store
