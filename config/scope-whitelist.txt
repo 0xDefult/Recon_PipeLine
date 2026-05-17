@@ -1,0 +1,4 @@
+# Authorized Targets Whitelist
+# Only domains in this file will be scanned
+# One domain per line
+zoho.in

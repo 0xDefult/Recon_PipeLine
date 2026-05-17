@@ -1,0 +1,25 @@
+# Cron Example Entries for Recon Pipeline
+# Add these to your crontab using: crontab -e
+
+# Full recon daily at 2 AM
+# 0 2 * * * /home/sattyam/recon-pipeline/scripts/recon-master.sh target.com
+
+# Subdomain monitoring every 6 hours
+# 0 */6 * * * /home/sattyam/recon-pipeline/scripts/subdomain-monitor.sh target.com
+
+# Vulnerability scanning every 12 hours
+# 0 */12 * * * /home/sattyam/recon-pipeline/scripts/vuln-scan.sh target.com
+
+# Technology fingerprinting every 12 hours
+# 0 */12 * * * /home/sattyam/recon-pipeline/scripts/tech-fingerprint.sh target.com
+
+# Port scanning daily at 3 AM
+# 0 3 * * * /home/sattyam/recon-pipeline/scripts/port-scanner.sh target.com
+
+# OSINT recon every 24 hours
+# 0 4 * * * /home/sattyam/recon-pipeline/scripts/osint-recon.sh target.com
+
+# To activate these:
+# 1. Run: crontab -e
+# 2. Uncomment and modify the lines above with your paths
+# 3. Save and exit

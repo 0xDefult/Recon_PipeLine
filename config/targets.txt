@@ -1,0 +1,4 @@
+# Bug Bounty Targets - Add one domain per line
+# Format: example.com
+# Only add targets you have authorization to test
+hackthebox.com
